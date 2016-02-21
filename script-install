@@ -1,0 +1,11 @@
+#!/bin/bash
+
+script_name=`echo $1 | rev | cut -f1 -d'/' | rev`
+install_path="/usr/local/bin/$script_name"
+
+echo "Installing ${script_name} at ${install_path}..."
+
+sudo curl -fLo $install_path $1 > /dev/null 2>&1
+sudo chmod a+x $install_path
+
+echo "Done."
