@@ -9,7 +9,7 @@ Example: installing `script-install` with `script-install`
 script-install https://raw.githubusercontent.com/nsarno/script-install/master/script-install
 ```
 
-## Install (without script-install)
+## Install
 
 Copy & paste this line in your terminal:
 
